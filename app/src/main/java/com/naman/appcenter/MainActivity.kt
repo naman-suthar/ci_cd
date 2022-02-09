@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
             application, "47f276ae-833b-4eff-995f-a0af2e595af3",
             Analytics::class.java, Crashes::class.java
         )
-        Toast.makeText(this,"Working",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"tHIS IS NOT WORKING",Toast.LENGTH_SHORT).show()
     }
 }
