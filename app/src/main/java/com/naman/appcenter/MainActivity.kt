@@ -1,6 +1,7 @@
 package com.naman.appcenter
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
@@ -14,5 +15,6 @@ class MainActivity : AppCompatActivity() {
             application, "47f276ae-833b-4eff-995f-a0af2e595af3",
             Analytics::class.java, Crashes::class.java
         )
+        Toast.makeText(this,"Working",Toast.LENGTH_SHORT).show()
     }
 }
