@@ -4,6 +4,14 @@ plugins {
 }
 
 android {
+    signingConfigs{
+        release{
+            storeFile file('keystore/cicdkeys.jks')
+            storePassword 'Naman200400@'
+            keyPassword 'Naman200400@'
+            keyAlias = 'key0'
+        }
+    }
     compileSdk 31
 
     defaultConfig {
