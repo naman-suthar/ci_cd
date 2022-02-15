@@ -11,10 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        AppCenter.start(
-            application, "47f276ae-833b-4eff-995f-a0af2e595af3",
-            Analytics::class.java, Crashes::class.java
-        )
+
         Toast.makeText(this,"tHIS IS NOT WORKING",Toast.LENGTH_SHORT).show()
     }
 }
